@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Locale;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -17,9 +16,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
 
-        Day day = null;
+        Days day = null;
         try {
-            day = Day.valueOf(str.toUpperCase(Locale.ROOT));
+            day = Days.valueOf(str.toUpperCase(Locale.ROOT));
         } catch (IllegalArgumentException e) {
             System.out.println("YOU WRITE WRONG!//СИЗ КАТА ЖАЗЫП ЖАТАСЫЗ!");
         }

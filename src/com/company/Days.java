@@ -1,6 +1,6 @@
 package com.company;
 //monday tuesday wednesday thursday saturday sunday
-public enum Day {
+public enum Days {
 
     ДУЙШОМБУ,
     ШЕЙШЕМБИ,
@@ -11,7 +11,7 @@ public enum Day {
     ЖЕКШЕМБИ,
     ;
 
-    Day() {
+    Days() {
     }
 
 
